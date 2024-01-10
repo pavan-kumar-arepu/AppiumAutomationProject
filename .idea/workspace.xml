@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CreateDriverSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ApiDemos-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FlagHoisting.app/Assets.car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FlagHoisting.app/FlagHoisting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FlagHoisting.app/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FlagHoisting.app/PkgInfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FlagHoisting.app/_CodeSignature/CodeResources" afterDir="false" />
+    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreateDriverSessionUsingOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ajMC0x5oZtiGN9F604o3fmzqlV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,6 +39,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CreateDriverSession (1).executor": "Run",
     "Application.CreateDriverSession.executor": "Run",
+    "Application.CreateDriverSessionUsingOptions.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CreateDriverSession (1)">
+  <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
     <configuration name="CreateDriverSession (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
       <module name="FirstAppiumProjectMaven" />
@@ -87,8 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateDriverSessionUsingOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateDriverSessionUsingOptions" />
+      <module name="FirstAppiumProjectMaven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateDriverSessionUsingOptions" />
         <item itemvalue="Application.CreateDriverSession (1)" />
         <item itemvalue="Application.CreateDriverSession" />
       </list>
@@ -109,8 +106,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704827405526</updated>
-      <workItem from="1704827406825" duration="1665000" />
+      <workItem from="1704827406825" duration="1897000" />
+      <workItem from="1704862320392" duration="2073000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great">
+      <option name="closed" value="true" />
+      <created>1704835275663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704835275663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
