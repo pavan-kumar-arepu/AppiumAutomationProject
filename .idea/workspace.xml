@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CreateDriverSessionUsingOptions.java" afterDir="false" />
+    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AndroidFindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AndroidUiAutomator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iOSFindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iOSPredicateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateDriverSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CreateDriverSession (1).executor": "Run",
-    "Application.CreateDriverSession.executor": "Run",
-    "Application.CreateDriverSessionUsingOptions.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/pavankumararepu/IdeaProjects/FirstAppiumProjectMaven/src/main/java/org/example/Main.java",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CreateDriverSession (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateDriverSession.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateDriverSessionUsingOptions.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pavankumararepu/IdeaProjects/FirstAppiumProjectMaven/src/main/java/org/example/Main.java&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
     <configuration name="CreateDriverSession (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
@@ -107,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704827405526</updated>
       <workItem from="1704827406825" duration="1897000" />
-      <workItem from="1704862320392" duration="2073000" />
+      <workItem from="1704862320392" duration="2823000" />
+      <workItem from="1704907800949" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great">
       <option name="closed" value="true" />
@@ -117,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704835275663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;">
+      <option name="closed" value="true" />
+      <created>1704865027164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704865027164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great" />
+    <MESSAGE value="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
