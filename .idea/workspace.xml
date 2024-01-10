@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AndroidFindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AndroidUiAutomator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iOSFindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/iOSPredicateString.java" afterDir="false" />
+    <list default="true" id="a1c6e0a8-9240-4e19-af5a-56d018814272" name="Changes" comment="Operats on WebViews with the help of 'WebElement' which came from Selenium.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElementBasicActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CreateDriverSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateDriverSession.java" afterDir="false" />
     </list>
@@ -38,33 +35,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.CreateDriverSession (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateDriverSession.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateDriverSessionUsingOptions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pavankumararepu/IdeaProjects/FirstAppiumProjectMaven/src/main/java/org/example/Main.java&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CreateDriverSession (1).executor": "Run",
+    "Application.CreateDriverSession.executor": "Run",
+    "Application.CreateDriverSessionUsingOptions.executor": "Run",
+    "Application.ElementBasicActions.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/pavankumararepu/IdeaProjects/FirstAppiumProjectMaven/src/main/java/org/example/Main.java",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateDriverSessionUsingOptions">
+  <component name="RunManager" selected="Application.ElementBasicActions">
     <configuration name="CreateDriverSession (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateDriverSession" />
       <module name="FirstAppiumProjectMaven" />
@@ -92,8 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElementBasicActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElementBasicActions" />
+      <module name="FirstAppiumProjectMaven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElementBasicActions" />
         <item itemvalue="Application.CreateDriverSessionUsingOptions" />
         <item itemvalue="Application.CreateDriverSession (1)" />
         <item itemvalue="Application.CreateDriverSession" />
@@ -117,7 +123,7 @@
       <updated>1704827405526</updated>
       <workItem from="1704827406825" duration="1897000" />
       <workItem from="1704862320392" duration="2823000" />
-      <workItem from="1704907800949" duration="2663000" />
+      <workItem from="1704907800949" duration="5591000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great">
       <option name="closed" value="true" />
@@ -135,7 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704865027164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Find UIElements with various 'Locator Strategies' in both iOS and Android">
+      <option name="closed" value="true" />
+      <created>1704911941932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704911941932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Operats on WebViews with the help of 'WebElement' which came from Selenium.">
+      <option name="closed" value="true" />
+      <created>1704915068342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915068342</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Operats on WebViews with the help of 'WebElement' which came from Selenium.">
+      <option name="closed" value="true" />
+      <created>1704915081469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915081469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +175,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit - Added DriverSession &#10;Added .apk file for Android&#10;Added .app file for iOS&#10;Made a test hit by running the 'CreateDriverSession'. Its working great" />
     <MESSAGE value="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another way of luanching Emulator and simulator is usinng &quot;UIAtomator2Options&quot; &amp; &quot;XCUITestOptions&quot;" />
+    <MESSAGE value="Find UIElements with various 'Locator Strategies' in both iOS and Android" />
+    <MESSAGE value="Operats on WebViews with the help of 'WebElement' which came from Selenium." />
+    <option name="LAST_COMMIT_MESSAGE" value="Operats on WebViews with the help of 'WebElement' which came from Selenium." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
